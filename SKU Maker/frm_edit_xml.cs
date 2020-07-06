@@ -35,7 +35,6 @@ namespace SKU_Maker
 
         private void frm_edit_xml_Load(object sender, EventArgs e)
         {
-            cb_cond_op.SelectedIndex = 0;
         }
 
         private void lb_prop_SelectedIndexChanged(object sender, EventArgs e)
@@ -240,11 +239,43 @@ namespace SKU_Maker
 
         private void btn_save_Click(object sender, EventArgs e)
         {
+            foreach (ProductProperty prop in product.Properties)
+            {
+                if (prop.Conditional)
+                {
+                    foreach (PropertyOption option in prop.Values)
+                    {
+                        if (option.ConditionPropertyTarget == null || option.ConditionPropertyTarget == "")
+                        {
+                            MessageBox.Show("Invalid Property Target for conditional Property Option with name " + option.Name + ", child to property " + prop.Title, "Invalid Product", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            MessageBox.Show("Save Canceled", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return;
+                        }
+                    }
+                }
+            }
+
             product.Save(filepath);
         }
 
         private void btn_save_as_Click(object sender, EventArgs e)
         {
+            foreach (ProductProperty prop in product.Properties)
+            {
+                if (prop.Conditional)
+                {
+                    foreach (PropertyOption option in prop.Values)
+                    {
+                        if (option.ConditionPropertyTarget == null || option.ConditionPropertyTarget == "")
+                        {
+                            MessageBox.Show("Invalid Property Target for conditional Property Option with name " + option.Name + ", child to property " + prop.Title, "Invalid Product", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            MessageBox.Show("Save Canceled", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return;
+                        }
+                    }
+                }
+            }
+
             using (SaveFileDialog sfd = new SaveFileDialog())
             {
                 sfd.Filter = "XML Files|*.xml";

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_edit_xml));
             this.lb_prop = new System.Windows.Forms.ListBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tb_prod_name = new System.Windows.Forms.TextBox();
@@ -142,9 +143,9 @@
             // 
             // tb_prod_comment
             // 
-            this.tb_prod_comment.Location = new System.Drawing.Point(316, 6);
+            this.tb_prod_comment.Location = new System.Drawing.Point(311, 6);
             this.tb_prod_comment.Name = "tb_prod_comment";
-            this.tb_prod_comment.Size = new System.Drawing.Size(159, 20);
+            this.tb_prod_comment.Size = new System.Drawing.Size(164, 20);
             this.tb_prod_comment.TabIndex = 14;
             this.tb_prod_comment.TextChanged += new System.EventHandler(this.tb_prod_comment_TextChanged);
             // 
@@ -153,9 +154,9 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(251, 9);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(59, 13);
+            this.label7.Size = new System.Drawing.Size(54, 13);
             this.label7.TabIndex = 13;
-            this.label7.Text = "Comments:";
+            this.label7.Text = "Comment:";
             // 
             // btn_prop_add
             // 
@@ -380,6 +381,7 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.tb_prod_name);
             this.Controls.Add(this.label3);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_edit_xml";
             this.Text = "Skewer | Edit XML";
             this.Load += new System.EventHandler(this.frm_edit_xml_Load);

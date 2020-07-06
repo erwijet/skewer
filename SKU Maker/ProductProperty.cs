@@ -67,6 +67,7 @@ namespace SKU_Maker
             {
                 prop.ConditionPropertyTarget = conditionalTarget;
                 prop.ConditionValue = conditionalValue;
+                prop.mode = mode;
             }
 
             return prop;

@@ -32,3 +32,22 @@ C:\Users\tyler\Desktop\SKU Maker\SKU Maker\SKU Maker\obj\Debug\SKU Maker.pdb
 C:\Users\tyler\Desktop\SKU Maker\SKU Maker\SKU Maker\obj\Debug\SKU_Maker.frm_main.resources
 C:\Users\tyler\Desktop\SKU Maker\SKU Maker\SKU Maker\obj\Debug\SKU_Maker.frm_table.resources
 C:\Users\tyler\Desktop\SKU Maker\SKU Maker\SKU Maker\obj\Debug\SKU_Maker.frm_exports.resources
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\skewer-master\SKU Maker\obj\Debug\SKU Maker.csprojAssemblyReference.cache
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\skewer-master\SKU Maker\obj\Debug\SKU_Maker.frm_main.resources
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\skewer-master\SKU Maker\obj\Debug\SKU_Maker.frm_edit_xml.resources
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\skewer-master\SKU Maker\obj\Debug\SKU_Maker.frm_table.resources
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\skewer-master\SKU Maker\obj\Debug\SKU_Maker.frm_exports.resources
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\skewer-master\SKU Maker\obj\Debug\SKU_Maker.Properties.Resources.resources
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\skewer-master\SKU Maker\obj\Debug\SKU Maker.csproj.GenerateResource.cache
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\skewer-master\SKU Maker\obj\Debug\SKU Maker.csproj.CoreCompileInputs.cache
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\skewer-master\SKU Maker\bin\Debug\Skewer.exe.config
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\skewer-master\SKU Maker\bin\Debug\Skewer.exe
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\skewer-master\SKU Maker\bin\Debug\Skewer.pdb
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\skewer-master\SKU Maker\obj\Debug\Skewer.exe
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\skewer-master\SKU Maker\obj\Debug\Skewer.pdb
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\skewer-master\SKU Maker\obj\Debug\SKU_Maker.frm_about.resources
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\skewer-master\SKU Maker\bin\Debug\Skewer.exe.manifest
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\skewer-master\SKU Maker\bin\Debug\Skewer.application
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\skewer-master\SKU Maker\obj\Debug\Skewer.TrustInfo.xml
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\skewer-master\SKU Maker\obj\Debug\Skewer.exe.manifest
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\skewer-master\SKU Maker\obj\Debug\Skewer.application

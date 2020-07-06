@@ -22,7 +22,7 @@ namespace SKU_Maker
             get
             {
                 if (lb_products.SelectedIndex < 0)
-                    return null;
+                    return new List<SkuComponent>();
                 return Products.ElementAt(lb_products.SelectedIndex).SkuSchema;
             }
             set
@@ -41,11 +41,6 @@ namespace SKU_Maker
 
             SkuComponents = new List<SkuComponent>();
             Products = new List<Product>();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
 
         #region Product Buttons
@@ -118,12 +113,9 @@ namespace SKU_Maker
             btn_prod_remove.Enabled = lb_products.SelectedItem != null;
             flp_sku.Controls.Clear();
             lb_properties.Items.Clear();
-            gb_schema_controls.Enabled = false;
 
             if (lb_products.SelectedIndex >= 0)
             {
-                gb_schema_controls.Enabled = true;
-
                 foreach (SkuComponent comp in Products.ElementAt(lb_products.SelectedIndex).SkuSchema)
                 {
                     Label l = new Label();
@@ -279,14 +271,14 @@ namespace SKU_Maker
                 {
                     try
                     {
-                        string dir = Path.GetTempPath() + @"\skupgk";
+                        string dir = Path.GetTempPath() + @"\skupkg";
+
+                        Directory.CreateDirectory(dir);
 
                         foreach (string path in Directory.EnumerateFiles(dir))
                         {
                             File.Delete(path);
                         }
-
-                        Directory.CreateDirectory(dir);
 
                         ZipFile.ExtractToDirectory(ofd.FileName, dir);
                         foreach (string path in Directory.EnumerateFiles(dir))
@@ -295,6 +287,8 @@ namespace SKU_Maker
                             Products.Add(p);
                             lb_products.Items.Add(p.Name);
                         }
+
+                        lb_products.SelectedIndex = 0;
                     }
                     catch(Exception ex)
                     {
@@ -307,8 +301,15 @@ namespace SKU_Maker
 
         private void btn_generate_Click(object sender, EventArgs e)
         {
-            Form frm = new frm_exports(Products);
+            if (lb_products.SelectedIndex < 0)
+                return;
+            Form frm = new frm_exports(Products.ElementAt(lb_products.SelectedIndex));
             frm.Show();
+        }
+
+        private void btn_about_Click(object sender, EventArgs e)
+        {
+            (new frm_about()).Show();
         }
     }
 }
