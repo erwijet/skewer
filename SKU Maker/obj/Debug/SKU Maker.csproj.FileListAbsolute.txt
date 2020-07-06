@@ -1,0 +1,34 @@
+C:\Users\tyler\Desktop\csharp\SKUMaker\SKU Maker\SKU Maker\bin\Debug\SKU Maker.exe.config
+C:\Users\tyler\Desktop\csharp\SKUMaker\SKU Maker\SKU Maker\bin\Debug\SKU Maker.exe
+C:\Users\tyler\Desktop\csharp\SKUMaker\SKU Maker\SKU Maker\bin\Debug\SKU Maker.pdb
+C:\Users\tyler\Desktop\csharp\SKUMaker\SKU Maker\SKU Maker\obj\Debug\SKU Maker.csprojAssemblyReference.cache
+C:\Users\tyler\Desktop\csharp\SKUMaker\SKU Maker\SKU Maker\obj\Debug\SKU_Maker.Form1.resources
+C:\Users\tyler\Desktop\csharp\SKUMaker\SKU Maker\SKU Maker\obj\Debug\SKU_Maker.Properties.Resources.resources
+C:\Users\tyler\Desktop\csharp\SKUMaker\SKU Maker\SKU Maker\obj\Debug\SKU Maker.csproj.GenerateResource.cache
+C:\Users\tyler\Desktop\csharp\SKUMaker\SKU Maker\SKU Maker\obj\Debug\SKU Maker.csproj.CoreCompileInputs.cache
+C:\Users\tyler\Desktop\csharp\SKUMaker\SKU Maker\SKU Maker\obj\Debug\SKU Maker.exe
+C:\Users\tyler\Desktop\csharp\SKUMaker\SKU Maker\SKU Maker\obj\Debug\SKU Maker.pdb
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\SKU Maker\SKU Maker\bin\Debug\SKU Maker.exe.config
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\SKU Maker\SKU Maker\bin\Debug\SKU Maker.exe
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\SKU Maker\SKU Maker\bin\Debug\SKU Maker.pdb
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\SKU Maker\SKU Maker\obj\Debug\SKU Maker.csprojAssemblyReference.cache
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\SKU Maker\SKU Maker\obj\Debug\SKU_Maker.Form1.resources
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\SKU Maker\SKU Maker\obj\Debug\SKU_Maker.Properties.Resources.resources
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\SKU Maker\SKU Maker\obj\Debug\SKU Maker.csproj.GenerateResource.cache
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\SKU Maker\SKU Maker\obj\Debug\SKU Maker.csproj.CoreCompileInputs.cache
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\SKU Maker\SKU Maker\obj\Debug\SKU Maker.exe
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\SKU Maker\SKU Maker\obj\Debug\SKU Maker.pdb
+\\bci-dc01\userhomedirs\tholewinski\Visual Studio 2019\projects\SKU Maker\SKU Maker\obj\Debug\SKU_Maker.frm_edit_xml.resources
+C:\Users\tyler\Desktop\SKU Maker\SKU Maker\SKU Maker\bin\Debug\SKU Maker.exe.config
+C:\Users\tyler\Desktop\SKU Maker\SKU Maker\SKU Maker\bin\Debug\SKU Maker.exe
+C:\Users\tyler\Desktop\SKU Maker\SKU Maker\SKU Maker\bin\Debug\SKU Maker.pdb
+C:\Users\tyler\Desktop\SKU Maker\SKU Maker\SKU Maker\obj\Debug\SKU Maker.csprojAssemblyReference.cache
+C:\Users\tyler\Desktop\SKU Maker\SKU Maker\SKU Maker\obj\Debug\SKU_Maker.frm_edit_xml.resources
+C:\Users\tyler\Desktop\SKU Maker\SKU Maker\SKU Maker\obj\Debug\SKU_Maker.Properties.Resources.resources
+C:\Users\tyler\Desktop\SKU Maker\SKU Maker\SKU Maker\obj\Debug\SKU Maker.csproj.GenerateResource.cache
+C:\Users\tyler\Desktop\SKU Maker\SKU Maker\SKU Maker\obj\Debug\SKU Maker.csproj.CoreCompileInputs.cache
+C:\Users\tyler\Desktop\SKU Maker\SKU Maker\SKU Maker\obj\Debug\SKU Maker.exe
+C:\Users\tyler\Desktop\SKU Maker\SKU Maker\SKU Maker\obj\Debug\SKU Maker.pdb
+C:\Users\tyler\Desktop\SKU Maker\SKU Maker\SKU Maker\obj\Debug\SKU_Maker.frm_main.resources
+C:\Users\tyler\Desktop\SKU Maker\SKU Maker\SKU Maker\obj\Debug\SKU_Maker.frm_table.resources
+C:\Users\tyler\Desktop\SKU Maker\SKU Maker\SKU Maker\obj\Debug\SKU_Maker.frm_exports.resources
